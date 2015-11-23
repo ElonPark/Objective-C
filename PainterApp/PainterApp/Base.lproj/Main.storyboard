@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="MainPainterView" id="8bC-Xf-vdC" customClass="MainPainterView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nhC-cx-IDk">
+                                <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                                <animations/>
+                                <items>
+                                    <barButtonItem title="Pen" id="7ZI-b8-JWR">
+                                        <connections>
+                                            <action selector="PenClick" destination="BYZ-38-t0r" id="kmI-w8-bwd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Line" id="uuW-hp-hhk">
+                                        <connections>
+                                            <action selector="LineClick" destination="BYZ-38-t0r" id="WzE-5m-zLT"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Circle" id="wFb-T7-MXJ">
+                                        <connections>
+                                            <action selector="CircleClick" destination="BYZ-38-t0r" id="VkM-ke-N9Y"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Rectangle" id="XJc-Jt-hmA">
+                                        <connections>
+                                            <action selector="RectangleClick" destination="BYZ-38-t0r" id="AV8-5s-yQa"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Erase" id="d3u-sa-jLw">
+                                        <connections>
+                                            <action selector="EraseClick" destination="BYZ-38-t0r" id="s9b-DB-JHS"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="설정" id="88h-8R-hgT">
+                                        <connections>
+                                            <action selector="SetupClick" destination="BYZ-38-t0r" id="hQ0-M8-LSM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--Painter Setup View Controller-->
+        <scene sceneID="QKO-xl-wjX">
+            <objects>
+                <viewController storyboardIdentifier="PainterSetupViewController" id="4F2-tp-iSc" customClass="PainterSetupViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WoI-pr-lfb"/>
+                        <viewControllerLayoutGuide type="bottom" id="S0a-HI-rUk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5DI-gF-E4J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Color 선택" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dza-K7-66g">
+                                <rect key="frame" x="107" y="55" width="107" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LUX-uJ-BGs">
+                                <rect key="frame" x="20" y="118" width="30" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Green" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOf-cy-G3p">
+                                <rect key="frame" x="20" y="156" width="47" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Blue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6iD-Ip-XyN">
+                                <rect key="frame" x="20" y="194" width="34" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="1" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="d0x-bP-psF">
+                                <rect key="frame" x="18" y="372" width="284" height="31"/>
+                                <animations/>
+                            </slider>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vud-zy-EC9">
+                                <rect key="frame" x="145" y="452" width="30" height="30"/>
+                                <animations/>
+                                <state key="normal" title="확인"/>
+                                <connections>
+                                    <action selector="PushBackClick" destination="4F2-tp-iSc" eventType="touchUpInside" id="AB2-VA-bvd"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Line 넓이" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vlo-td-afJ">
+                                <rect key="frame" x="127" y="336" width="66" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Pnw-dO-6hX">
+                                <rect key="frame" x="77" y="152" width="225" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="ValueChange:" destination="4F2-tp-iSc" eventType="valueChanged" id="zsw-ND-mjP"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UDU-0O-LPY">
+                                <rect key="frame" x="77" y="190" width="225" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="ValueChange:" destination="4F2-tp-iSc" eventType="valueChanged" id="6UI-X7-Ej7"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="zYb-CF-Hzh">
+                                <rect key="frame" x="77" y="114" width="225" height="31"/>
+                                <animations/>
+                                <connections>
+                                    <action selector="ValueChange:" destination="4F2-tp-iSc" eventType="valueChanged" id="fqW-9q-Tdk"/>
+                                </connections>
+                            </slider>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Phz-Op-PPy">
+                                <rect key="frame" x="40" y="240" width="240" height="67"/>
+                                <animations/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="blueBar" destination="UDU-0O-LPY" id="aK7-En-CGy"/>
+                        <outlet property="colorPreView" destination="Phz-Op-PPy" id="f1g-M8-fqd"/>
+                        <outlet property="greenBar" destination="Pnw-dO-6hX" id="khn-On-Vr1"/>
+                        <outlet property="redBar" destination="zYb-CF-Hzh" id="Lm6-Vr-z4k"/>
+                        <outlet property="widthBar" destination="d0x-bP-psF" id="WzI-b6-8g9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f6A-CK-1ll" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="1042"/>
+        </scene>
+    </scenes>
+</document>

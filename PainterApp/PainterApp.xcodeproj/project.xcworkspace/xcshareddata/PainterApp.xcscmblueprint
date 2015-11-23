@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "59FBBCC50E7F14DA165B2555B626FEEBB8E6F07D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "59FBBCC50E7F14DA165B2555B626FEEBB8E6F07D" : 0,
+    "8C2784E123A1B700B7D19D198B89DFB77A473DDB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F8ACC437-99C3-4182-B4D3-51230DC84614",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "59FBBCC50E7F14DA165B2555B626FEEBB8E6F07D" : "Objective-C\/",
+    "8C2784E123A1B700B7D19D198B89DFB77A473DDB" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PainterApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PainterApp\/PainterApp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NebulaPark\/Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "59FBBCC50E7F14DA165B2555B626FEEBB8E6F07D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NebulaPark\/Java.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C2784E123A1B700B7D19D198B89DFB77A473DDB"
+    }
+  ]
+}
