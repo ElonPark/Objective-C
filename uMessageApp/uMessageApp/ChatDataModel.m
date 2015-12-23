@@ -1,9 +1,9 @@
 //
 //  ChatDataModel.m
-//  TextMessager
+//  uMessageApp
 //
-//  Created by Nebula_MAC on 2015. 12. 13..
-//  Copyright © 2015년 Nebula_MAC. All rights reserved.
+//  Created by Broad_102-12 on 2015. 12. 7..
+//  Copyright (c) 2015년 201116041_ParkSungWoon. All rights reserved.
 //
 
 #import "ChatDataModel.h"

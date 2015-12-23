@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ChatViewCell : UIViewController
+@interface ChatViewCell : UITableViewCell
+
+@property(weak, nonatomic) IBOutlet UILabel *pTimeView; //대화 시간
+@property(weak, nonatomic) IBOutlet UITextView *pContextView; //대화 내용
+@property(weak, nonatomic) IBOutlet UIImageView *pBackImageView;
+
 
 @end

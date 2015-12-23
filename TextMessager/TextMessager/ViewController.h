@@ -8,8 +8,24 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@class ChatViewController;
+@class NetWorkController;
 
+@interface ViewController : UIViewController
+{
+    ChatViewController *pChatViewController;
+    NetWorkController *pNetWorkController;
+}
+
+
+
+-(IBAction)Login; //로그인 요청
+-(void)ChatViewShow; //대화 화면 전환
+-(void)ServerConnect:(NSString *)pUserID;
+@property(strong, nonatomic) NSString *UserID;
+@property(weak, nonatomic)IBOutlet UITextField *pUserIDField;
+@property(strong, nonatomic)NetWorkController *pNetWorkController;
+@property(strong, nonatomic)ChatViewController *pChatViewController;
 
 @end
 

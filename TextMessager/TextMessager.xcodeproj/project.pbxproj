@@ -15,6 +15,19 @@
 		331DD7EE1C1D65C600FD20AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 331DD7EC1C1D65C600FD20AC /* LaunchScreen.storyboard */; };
 		331DD7F91C1D65C600FD20AC /* TextMessagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DD7F81C1D65C600FD20AC /* TextMessagerTests.m */; };
 		331DD8041C1D65C700FD20AC /* TextMessagerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DD8031C1D65C700FD20AC /* TextMessagerUITests.m */; };
+		331DD8191C1D7AFF00FD20AC /* ChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DD8171C1D7AFF00FD20AC /* ChatViewCell.m */; };
+		331DD81A1C1D7AFF00FD20AC /* ChatViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 331DD8181C1D7AFF00FD20AC /* ChatViewCell.xib */; };
+		331DD8231C1D820000FD20AC /* box.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD81C1C1D820000FD20AC /* box.png */; };
+		331DD8241C1D820000FD20AC /* ChatFaceIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD81D1C1D820000FD20AC /* ChatFaceIcon.png */; };
+		331DD8251C1D820000FD20AC /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD81E1C1D820000FD20AC /* first.png */; };
+		331DD8261C1D820000FD20AC /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD81F1C1D820000FD20AC /* first@2x.png */; };
+		331DD8271C1D820000FD20AC /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD8201C1D820000FD20AC /* second.png */; };
+		331DD8281C1D820000FD20AC /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD8211C1D820000FD20AC /* second@2x.png */; };
+		331DD8291C1D820000FD20AC /* tar_box.png in Resources */ = {isa = PBXBuildFile; fileRef = 331DD8221C1D820000FD20AC /* tar_box.png */; };
+		331DD82D1C1D853E00FD20AC /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DD82B1C1D853E00FD20AC /* ChatViewController.m */; };
+		331DD82E1C1D853E00FD20AC /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 331DD82C1C1D853E00FD20AC /* ChatViewController.xib */; };
+		331DD8311C1D877300FD20AC /* ChatDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DD8301C1D877300FD20AC /* ChatDataModel.m */; };
+		331DD8371C1D909F00FD20AC /* NetWorkController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331DD8361C1D909F00FD20AC /* NetWorkController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,23 @@
 		331DD7FF1C1D65C700FD20AC /* TextMessagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextMessagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		331DD8031C1D65C700FD20AC /* TextMessagerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextMessagerUITests.m; sourceTree = "<group>"; };
 		331DD8051C1D65C700FD20AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		331DD8161C1D7AFF00FD20AC /* ChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewCell.h; sourceTree = "<group>"; };
+		331DD8171C1D7AFF00FD20AC /* ChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewCell.m; sourceTree = "<group>"; };
+		331DD8181C1D7AFF00FD20AC /* ChatViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewCell.xib; sourceTree = "<group>"; };
+		331DD81C1C1D820000FD20AC /* box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box.png; sourceTree = "<group>"; };
+		331DD81D1C1D820000FD20AC /* ChatFaceIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ChatFaceIcon.png; sourceTree = "<group>"; };
+		331DD81E1C1D820000FD20AC /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		331DD81F1C1D820000FD20AC /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		331DD8201C1D820000FD20AC /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		331DD8211C1D820000FD20AC /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		331DD8221C1D820000FD20AC /* tar_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tar_box.png; sourceTree = "<group>"; };
+		331DD82A1C1D853E00FD20AC /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		331DD82B1C1D853E00FD20AC /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		331DD82C1C1D853E00FD20AC /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		331DD82F1C1D877300FD20AC /* ChatDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDataModel.h; sourceTree = "<group>"; };
+		331DD8301C1D877300FD20AC /* ChatDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDataModel.m; sourceTree = "<group>"; };
+		331DD8351C1D909F00FD20AC /* NetWorkController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetWorkController.h; path = ../NetWorkController.h; sourceTree = "<group>"; };
+		331DD8361C1D909F00FD20AC /* NetWorkController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetWorkController.m; path = ../NetWorkController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +131,21 @@
 		331DD7DD1C1D65C600FD20AC /* TextMessager */ = {
 			isa = PBXGroup;
 			children = (
+				331DD81B1C1D81CD00FD20AC /* Resouce */,
 				331DD7E11C1D65C600FD20AC /* AppDelegate.h */,
 				331DD7E21C1D65C600FD20AC /* AppDelegate.m */,
 				331DD7E41C1D65C600FD20AC /* ViewController.h */,
 				331DD7E51C1D65C600FD20AC /* ViewController.m */,
+				331DD8161C1D7AFF00FD20AC /* ChatViewCell.h */,
+				331DD8171C1D7AFF00FD20AC /* ChatViewCell.m */,
+				331DD8181C1D7AFF00FD20AC /* ChatViewCell.xib */,
+				331DD82A1C1D853E00FD20AC /* ChatViewController.h */,
+				331DD82B1C1D853E00FD20AC /* ChatViewController.m */,
+				331DD82C1C1D853E00FD20AC /* ChatViewController.xib */,
+				331DD8351C1D909F00FD20AC /* NetWorkController.h */,
+				331DD8361C1D909F00FD20AC /* NetWorkController.m */,
+				331DD82F1C1D877300FD20AC /* ChatDataModel.h */,
+				331DD8301C1D877300FD20AC /* ChatDataModel.m */,
 				331DD7E71C1D65C600FD20AC /* Main.storyboard */,
 				331DD7EA1C1D65C600FD20AC /* Assets.xcassets */,
 				331DD7EC1C1D65C600FD20AC /* LaunchScreen.storyboard */,
@@ -138,6 +179,20 @@
 				331DD8051C1D65C700FD20AC /* Info.plist */,
 			);
 			path = TextMessagerUITests;
+			sourceTree = "<group>";
+		};
+		331DD81B1C1D81CD00FD20AC /* Resouce */ = {
+			isa = PBXGroup;
+			children = (
+				331DD81C1C1D820000FD20AC /* box.png */,
+				331DD81D1C1D820000FD20AC /* ChatFaceIcon.png */,
+				331DD81E1C1D820000FD20AC /* first.png */,
+				331DD81F1C1D820000FD20AC /* first@2x.png */,
+				331DD8201C1D820000FD20AC /* second.png */,
+				331DD8211C1D820000FD20AC /* second@2x.png */,
+				331DD8221C1D820000FD20AC /* tar_box.png */,
+			);
+			name = Resouce;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,7 +301,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331DD8281C1D820000FD20AC /* second@2x.png in Resources */,
+				331DD81A1C1D7AFF00FD20AC /* ChatViewCell.xib in Resources */,
+				331DD82E1C1D853E00FD20AC /* ChatViewController.xib in Resources */,
+				331DD8261C1D820000FD20AC /* first@2x.png in Resources */,
+				331DD8241C1D820000FD20AC /* ChatFaceIcon.png in Resources */,
+				331DD8251C1D820000FD20AC /* first.png in Resources */,
 				331DD7EE1C1D65C600FD20AC /* LaunchScreen.storyboard in Resources */,
+				331DD8291C1D820000FD20AC /* tar_box.png in Resources */,
+				331DD8231C1D820000FD20AC /* box.png in Resources */,
+				331DD8271C1D820000FD20AC /* second.png in Resources */,
 				331DD7EB1C1D65C600FD20AC /* Assets.xcassets in Resources */,
 				331DD7E91C1D65C600FD20AC /* Main.storyboard in Resources */,
 			);
@@ -273,8 +337,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331DD8191C1D7AFF00FD20AC /* ChatViewCell.m in Sources */,
 				331DD7E61C1D65C600FD20AC /* ViewController.m in Sources */,
+				331DD82D1C1D853E00FD20AC /* ChatViewController.m in Sources */,
+				331DD8311C1D877300FD20AC /* ChatDataModel.m in Sources */,
 				331DD7E31C1D65C600FD20AC /* AppDelegate.m in Sources */,
+				331DD8371C1D909F00FD20AC /* NetWorkController.m in Sources */,
 				331DD7E01C1D65C600FD20AC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
