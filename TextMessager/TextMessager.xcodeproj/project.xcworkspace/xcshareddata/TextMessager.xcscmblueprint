@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D805751226512EED35EA1020AB95A9A9DCB189E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "82595E98A0DBCC137DA9F41B5E55951B27226EDA" : 0,
+    "0D805751226512EED35EA1020AB95A9A9DCB189E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FC11ACDA-ED1A-4CD5-92C1-EC02D2A3D8E8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "82595E98A0DBCC137DA9F41B5E55951B27226EDA" : "",
+    "0D805751226512EED35EA1020AB95A9A9DCB189E" : "Objective-C\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TextMessager",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TextMessager\/TextMessager.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NebulaPark\/Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D805751226512EED35EA1020AB95A9A9DCB189E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NebulaPark\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82595E98A0DBCC137DA9F41B5E55951B27226EDA"
+    }
+  ]
+}

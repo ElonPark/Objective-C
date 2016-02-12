@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0D805751226512EED35EA1020AB95A9A9DCB189E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "82595E98A0DBCC137DA9F41B5E55951B27226EDA" : 0,
+    "0D805751226512EED35EA1020AB95A9A9DCB189E" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "05EC6DE4-B969-47A3-BCDA-916CB7D8A669",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "82595E98A0DBCC137DA9F41B5E55951B27226EDA" : "",
+    "0D805751226512EED35EA1020AB95A9A9DCB189E" : "Objective-C\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloWorld",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloWorld\/HelloWorld.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NebulaPark\/Objective-C.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0D805751226512EED35EA1020AB95A9A9DCB189E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/NebulaPark\/Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "82595E98A0DBCC137DA9F41B5E55951B27226EDA"
+    }
+  ]
+}
